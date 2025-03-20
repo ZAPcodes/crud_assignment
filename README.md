@@ -46,10 +46,9 @@ backend/
 
 ## Setup Instructions
 ### Local Setup (Without Docker)
-#### 1. Clone the Repository
+#### Setup with Docker
 ```bash
-   git clone <repository-url>
-   cd backend
+   docker-compose up --build
 ```
 
 ## API Endpoints
