@@ -1,6 +1,6 @@
 # Zelantrix Internship Assignment - User Management API
 
-This project is a RESTful API with a React frontend, developed for the **Zelantrix Backend Developer Intern Assignment**. It provides CRUD operations for managing users, with features like soft deletion, pagination, filtering, validation, and Dockerization for easy deployment.
+This project is a RESTful API developed for the **Zelantrix Backend Developer Intern Assignment**. It provides CRUD operations for managing users, with features like soft deletion, pagination, filtering, validation, and Dockerization for easy deployment.
 
 ## Project Overview
 The backend is built with **Node.js and Express**, managing user data stored in **MongoDB**.
@@ -46,10 +46,9 @@ backend/
 
 ## Setup Instructions
 ### Local Setup (Without Docker)
-#### 1. Clone the Repository
+#### Setup with Docker
 ```bash
-   git clone <repository-url>
-   cd backend
+   docker-compose up --build
 ```
 
 ## API Endpoints
