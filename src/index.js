@@ -23,7 +23,7 @@ connectDB();
 app.get("/", (req, res) => {  
     res.json({ message: "Welcome to the application." });
 });
-app.use("/api/v1/user",userRouter);
+app.use("/api/v1",userRouter);
 
 
 
