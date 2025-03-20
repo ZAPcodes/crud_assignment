@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Docker-related files
+*.dockerignore
+docker-compose.yml
+Dockerfile
+# Uncomment the below if you want to track these files in Git
+# !docker-compose.yml
+# !Dockerfile
+
+
+
