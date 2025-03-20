@@ -4,9 +4,9 @@ import { createUser, updateUser, deleteUser, getSingleUser, getAllUser } from ".
 const router = express.Router();
 
 router.post("/create", createUser);
-router.patch("/update/:id", updateUser); // Changed to PATCH for partial updates
-router.delete("/delete/:id", deleteUser); // Changed to DELETE for deletion
+router.patch("/update/:id", updateUser); 
+router.delete("/delete/:id", deleteUser); 
 router.get("/get-single-user/:id", getSingleUser);
-router.get("/get-all-user", getAllUser); // Pagination and filtering via query params
+router.get("/get-all-user", getAllUser); 
 
 export default router;

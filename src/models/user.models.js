@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Joi from "joi"; // Note: Joi is typically imported as default, not destructured
+import Joi from "joi"; 
 
 // Mongoose Schema
 const userSchema = new mongoose.Schema(
